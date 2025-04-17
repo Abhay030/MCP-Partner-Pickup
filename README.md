@@ -1,15 +1,15 @@
-# 🛵 Micro Collection Partner (MCP) System 💰
+#   🛵 Micro Collection Partner (MCP) System 💰
 
-## 📦 Overview
+##   📦 Overview
 
-The **MCP System** is a comprehensive solution designed to revolutionize the management of pickup partners in micro collection services. 🚀 This dual-application platform (web and mobile) empowers Micro Collection Partners (MCPs) to efficiently orchestrate their operations, from partner administration and order logistics to seamless financial transactions. [cite: 1, 5]
+The **MCP System** is a comprehensive solution designed to revolutionize the management of pickup partners in micro collection services. 🚀 This dual-application platform (web and mobile) empowers Micro Collection Partners (MCPs) to efficiently orchestrate their operations, from partner administration and order logistics to seamless financial transactions. [cite: 1, 2, 3, 4, 5]
 
 This system provides MCPs with essential tools to:
 
-* 💰 Manage wallet balances and transaction histories.
-* 👥 Oversee pickup partners, including onboarding, role assignment, and performance tracking.
-* 🚚 Track order statuses in real-time and dispatch them to partners.
-* 💸 Handle financial flows, such as funding wallets and distributing earnings.
+* 💰 Manage wallet balances and transaction histories. [cite: 2, 3]
+* 👥 Oversee pickup partners, including onboarding, role assignment, and performance tracking. [cite: 3, 6]
+* 🚚 Track order statuses in real-time and dispatch them to partners. [cite: 4, 6]
+* 💸 Handle financial flows, such as funding wallets and distributing earnings. [cite: 3]
 
 **✨ Project Status:**
 
@@ -28,106 +28,106 @@ The MCP System is packed with features designed to optimize micro collection ope
 
 The MCP App serves as the central command center for Micro Collection Partners, providing them with granular control over their operations. [cite: 5]
 
-1.  **📊 Dashboard:** Get a bird's-eye view of your business performance.
+1.  📊 Dashboard: Get a bird's-eye view of your business performance. [cite: 6]
     * 💰   View total wallet balance [cite: 2]
     * 👥   See all pickup partners and their current status (active/inactive) [cite: 2]
     * 🚚   Track total, completed, and pending orders across all partners [cite: 2]
-    * \[Screenshot of MCP Dashboard Here]
+    * ![MCP Dashboard](frontend/src/assets/Dashboard.png)
 
-2.  **🤝 Pickup Partner Management:** Onboard, organize, and manage your team of pickup partners.
-    * ➕   Add new Pickup Partners
-    * 🗑️   Delete existing partners
-    * Roles and responsibilities assignment
+2.  🤝 Pickup Partner Management: Onboard, organize, and manage your team of pickup partners. [cite: 6]
+    * ➕   Add new Pickup Partners [cite: 3]
+    * 🗑️   Delete existing partners [cite: 3]
+    * Roles and responsibilities assignment [cite: 3]
     * Set commission or fixed payment per order [cite: 3]
     * Track active vs. inactive partners [cite: 3]
 
-3.  **💸 Wallet & Transactions:** Seamlessly manage funds within the system.
+3.  💸 Wallet & Transactions: Seamlessly manage funds within the system. [cite: 6]
     * 💰   MCP Wallet: Load funds via UPI, bank transfer, etc., and distribute to partners [cite: 2]
     * 💳   Pickup Partner Wallet: Manage partner balances (add/subtract funds) [cite: 3]
     * 📜   Transaction History: Maintain a detailed record of all financial transactions [cite: 3]
 
-4.  **🚚 Order Management & Tracking:** Efficiently handle order dispatch and monitoring.
+4.  🚚 Order Management & Tracking: Efficiently handle order dispatch and monitoring. [cite: 4, 6]
     * Assign orders to pickup partners (manually or with auto-assign) [cite: 4]
     * Track live order status (Pending, In Progress, Completed) [cite: 4]
     * Identify the partner assigned to each order [cite: 4]
-    * Generate daily/weekly reports (Optional) [cite: 4]
-    * \[Screenshot of Order Management Page Here]
+    * Generate daily/weekly reports [cite: 4]
+    * ![Order Management Page](frontend/src/assets/Create-Order.png)
 
-5.  **🔔 Notifications & Alerts:** Stay informed with real-time updates.
-    * 🚚   Order status updates [cite: 5]
+5.  🔔 Notifications & Alerts: Stay informed with real-time updates. [cite: 5, 6]
+    * 🚚   Order status updates [cite: 4, 5]
     * ⚠️   Low wallet balance alerts [cite: 5]
     * ✅   Partner order completion notifications [cite: 5]
 
-6.  **📈 Reports & Analytics:** (Optional) Gain insights into your business.
-    * Earnings reports
-    * Order history
+6.  📈 Reports & Analytics: Gain insights into your business. [cite: 5, 6]
+    * Earnings reports [cite: 6]
+    * Order history [cite: 6]
     * Efficiency tracking [cite: 6]
 
 ###   📱 Pickup Partner App
 
 The Pickup Partner App empowers pickup partners to efficiently manage their assigned tasks and track their earnings. [cite: 6, 7]
 
-1.  **📇 Dashboard:** Partners get a clear view of their daily tasks and earnings.
-    * See available orders
-    * Track earnings
+1.  📇 Dashboard: Partners get a clear view of their daily tasks and earnings. [cite: 7]
+    * See available orders [cite: 7]
+    * Track earnings [cite: 7]
     * View completed tasks [cite: 7]
 
-2.  **📦 Order Management:** Partners can interact with assigned orders.
+2.  📦 Order Management: Partners can interact with assigned orders. [cite: 7]
     * Accept/reject orders [cite: 7]
     * Update order status (In Progress, Completed) [cite: 7]
 
-3.  **💰 Wallet:** Partners can monitor their financial activity.
-    * View earnings
-    * Track withdrawals
+3.  💰 Wallet: Partners can monitor their financial activity. [cite: 7]
+    * View earnings [cite: 7]
+    * Track withdrawals [cite: 7]
     * See funds received from MCP [cite: 7]
 
-4.  **📍 Live Order Tracking:** Partners can provide real-time updates on order progress.
+4.  📍 Live Order Tracking: Partners can provide real-time updates on order progress. [cite: 7]
     * Update status (In Progress, Completed) [cite: 7]
 
-5.  **🗺️ Location Integration:** (Optional) Partners can navigate to customer locations.
-    * Google Maps integration for navigation [cite: 7]
+5.  🗺️ Location Integration: Partners can navigate to customer locations. [cite: 7]
+    * Google Maps integration for navigation [cite: 4]
 
-6.  **🔔 Notifications:** Partners receive timely alerts.
+6.  🔔 Notifications: Partners receive timely alerts. [cite: 5, 7]
     * New order alerts [cite: 7]
-    * Payment updates
-    * Reminders
+    * Payment updates [cite: 7]
+    * Reminders [cite: 7]
 
-7.  **⭐ Performance Stats:** (Optional) Partners can track their performance.
-    * Completed orders
+7.  ⭐ Performance Stats: Partners can track their performance. [cite: 7]
+    * Completed orders [cite: 7]
     * Ratings (if added) [cite: 7]
 
 ##   ⚙️ How It Works
 
-The MCP System facilitates a streamlined workflow between MCPs and Pickup Partners:
+The MCP System facilitates a streamlined workflow between MCPs and Pickup Partners: [cite: 7, 8]
 
-1.  **🤝 Partner Onboarding:** MCPs add Pickup Partners, who then complete their registration using the Pickup Partner App. [cite: 7, 8]
-2.  **🚚 Order Assignment:** MCPs dispatch orders to Pickup Partners, either manually or through automated assignment. [cite: 4, 8]
-3.  **🔔 Order Notification:** Pickup Partners receive notifications about new order assignments. [cite: 7, 8]
-4.  **✅ Order Acceptance & Completion:** Pickup Partners accept assigned orders and update the order status as they progress. [cite: 7, 8]
-5.  **💸 Payment Processing:** MCPs manage payments to Pickup Partners through the integrated wallet system, with all transactions meticulously recorded. [cite: 8]
+1.  🤝 Partner Onboarding: MCPs add Pickup Partners, who then complete their registration using the Pickup Partner App. [cite: 7]
+2.  🚚 Order Assignment: MCPs dispatch orders to Pickup Partners, either manually or through automated assignment. [cite: 4, 7]
+3.  🔔 Order Notification: Pickup Partners receive notifications about new order assignments. [cite: 7]
+4.  ✅ Order Acceptance & Completion: Pickup Partners accept assigned orders and update the order status as they progress. [cite: 7]
+5.  💸 Payment Processing: MCPs manage payments to Pickup Partners through the integrated wallet system, with all transactions meticulously recorded. [cite: 8]
 
 ##   🛠️ Tech Stack
 
-The MCP System leverages a robust and modern technology stack:
+The MCP System leverages a robust and modern technology stack: [cite: 4]
 
-* **📱 Frontend:**
+* 📱 Frontend:
     * React Native (for mobile applications) [cite: 4]
     * React.js (for web application) [cite: 4]
-* **💻 Backend:**
+* 💻 Backend:
     * Node.js with Express / Python Flask [cite: 4]
-* **🗄️ Database:**
+* 🗄️ Database:
     * MongoDB [cite: 4]
-* **💳 Payments:**
-    * Razorpay (Optional) [cite: 4]
-* **🗺️ Maps & Tracking:**
-    * Google Maps API (Optional) [cite: 4, 5]
+* 💳 Payments:
+    * Razorpay [cite: 4]
+* 🗺️ Maps & Tracking:
+    * Google Maps API [cite: 4, 5]
 
 ##   📸 Screenshots
 
 * **MCP Login Page:**
-    \[Screenshot of MCP Login Page Here]
+    ![MCP Login Page](frontend/src/assets/Login.png)
 * **MCP Registration Page:**
-    \[Screenshot of MCP Registration Page Here]
+    ![MCP Registration Page](frontend/src/assets/Register.png)
 
 ##   🚀 Installation
 
@@ -145,8 +145,8 @@ To get the MCP System up and running locally, follow these steps:
     * **For React.js (MCP Web App):**
 
         ```bash
-        cd mcp-web  # or the relevant directory name
-        npm install  # or yarn install
+        cd mcp-web # or the relevant directory name
+        npm install # or yarn install
         ```
 
     * **For React Native (Pickup Partner Mobile App):**
@@ -160,7 +160,7 @@ To get the MCP System up and running locally, follow these steps:
     * **For Node.js/Flask Backend:**
 
         ```bash
-        cd backend  # or the relevant directory name
+        cd backend # or the relevant directory name
         npm install # or pip install -r requirements.txt (for Flask)
         ```
 
@@ -244,8 +244,8 @@ Please ensure your code follows the project's coding standards and includes appr
 
 ##   📄 License
 
-
+\[Specify the project's license (e.g., MIT, Apache 2.0)]
 
 ##   📧 Contact
 
-* For more information about the project contact me via email :- abhay.awasthi1357@gmail.com
+\[Provide contact information for questions or support (e.g., email address, support forum link)]
