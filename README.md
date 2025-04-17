@@ -242,10 +242,7 @@ Contributions to the MCP System are welcome! To contribute:
 
 Please ensure your code follows the project's coding standards and includes appropriate tests.
 
-##   📄 License
-
-\[Specify the project's license (e.g., MIT, Apache 2.0)]
-
 ##   📧 Contact
 
-\[Provide contact information for questions or support (e.g., email address, support forum link)]
+**for more information about the project**
+Email:- abhay.awasthi1357@gmail.com
